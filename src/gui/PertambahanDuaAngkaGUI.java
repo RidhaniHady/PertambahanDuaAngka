@@ -136,13 +136,13 @@ public class PertambahanDuaAngkaGUI extends javax.swing.JFrame {
         });
 
         hapusBtn.setText("Hapus");
-
-        keluarBtn.setText("Keluar");
-        keluarBtn.addActionListener(new java.awt.event.ActionListener() {
+        hapusBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                keluarBtnActionPerformed(evt);
+                hapusBtnActionPerformed(evt);
             }
         });
+
+        keluarBtn.setText("Keluar");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -218,7 +218,6 @@ public class PertambahanDuaAngkaGUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_tambahBtnActionPerformed
 
-<<<<<<< HEAD
     private void hapusBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hapusBtnActionPerformed
         // TODO add your handling code here:
         angkaPertamaTF.setText("");
@@ -227,13 +226,6 @@ public class PertambahanDuaAngkaGUI extends javax.swing.JFrame {
         angkaPertamaTF.requestFocus();
     }//GEN-LAST:event_hapusBtnActionPerformed
 
-    private void keluarBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_keluarBtnActionPerformed
-        // TODO add your handling code here:
-        System.exit(0);
-    }//GEN-LAST:event_keluarBtnActionPerformed
-
-=======
->>>>>>> parent of 597c8f6 (Membuat Kode Program tombol hapus)
     /**
      * @param args the command line arguments
      */
